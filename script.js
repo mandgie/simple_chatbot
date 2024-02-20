@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var password = 'secret';
         var basicAuth = 'Basic ' + btoa(username + ':' + password);
 
-        fetch('http://129.159.35.30:1099/query', {
+        fetch('https://129.159.35.30:1099/query', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
