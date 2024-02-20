@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Chat</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="chat-container">
+    <div id="chat-window">
+        <div id="output"></div>
+    </div>
+    <div id="input-area">
+        <input id="userInput" type="text" placeholder="Enter message..." />
+        <button id="sendBtn">Send</button>
+    </div>
+</div>
+<div id="prompt-container">
+    <textarea id="systemPrompt" placeholder="Enter system prompt..."></textarea>
+    <select id="modelSelect">
+        <option value="small">Model A</option>
+    </select>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
